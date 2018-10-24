@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75.22 75.22">
+  <title>invoice</title>
+  <g>
+    <circle cx="37.61" cy="37.61" r="37.61" fill="#e9e0db"/>
+    <g>
+      <rect x="13.74" y="2.5" width="46.13" height="71.22" rx="5.5" ry="5.5" fill="#fffaf7" stroke="#534741" stroke-miterlimit="10" stroke-width="1.5"/>
+      <rect x="17.79" y="8.75" width="38.04" height="54.72" fill="#fffaf7" stroke="#534741" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="36.67" cy="68.32" r="1.89" fill="#fffaf7" stroke="#534741" stroke-miterlimit="10"/>
+      <rect x="23.99" y="16.1" width="25.52" height="25.52" rx="3.37" ry="3.37" fill="#ffc73e" stroke="#534741" stroke-miterlimit="10"/>
+      <rect x="23.99" y="47.19" width="25.52" height="8.77" rx="4.39" ry="4.39" fill="#fffaf7" stroke="#534741" stroke-miterlimit="10"/>
+      <g>
+        <rect x="26.9" y="20.68" width="0.71" height="7.85" fill="#534741"/>
+        <rect x="28.57" y="20.68" width="0.71" height="7.85" fill="#534741"/>
+        <rect x="30.23" y="20.68" width="0.71" height="7.85" fill="#534741"/>
+        <rect x="31.9" y="20.68" width="0.71" height="7.85" fill="#534741"/>
+        <rect x="37.61" y="20.68" width="0.71" height="7.85" fill="#534741"/>
+        <rect x="42.6" y="20.68" width="0.71" height="7.85" fill="#534741"/>
+        <rect x="44.03" y="20.68" width="0.24" height="7.85" fill="#534741"/>
+        <rect x="45.93" y="20.68" width="0.24" height="7.85" fill="#534741"/>
+        <rect x="39.27" y="20.68" width="0.71" height="7.85" fill="#534741"/>
+        <rect x="36.18" y="20.68" width="0.71" height="7.85" fill="#534741"/>
+        <rect x="40.46" y="20.68" width="0.71" height="7.85" fill="#534741"/>
+        <rect x="44.74" y="20.68" width="0.71" height="7.85" fill="#534741"/>
+        <rect x="33.56" y="20.68" width="1.9" height="7.85" fill="#534741"/>
+      </g>
+      <text transform="translate(29.27 36.61)" font-size="6.95" fill="#534741" font-family="PingFangTC-Medium, PingFangTC Medium-B5pc-H" letter-spacing="0.05em">發票</text>
+      <text transform="translate(31.6 53.66)" font-size="4.73" fill="#534741" font-family="PingFangTC-Semibold, PingFangTC Semibold-B5pc-H" font-weight="700" letter-spacing="0.05em">下載</text>
+      <rect x="30.52" y="4.98" width="11.76" height="1.19" rx="0.6" ry="0.6" fill="#534741"/>
+    </g>
+  </g>
+</svg>

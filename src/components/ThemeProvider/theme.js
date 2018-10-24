@@ -18,7 +18,8 @@ const font = 'Arial, "PingFang TC", "HeiTi TC", "Microsoft JhengHei", sans-serif
 
 const white = '#fff';
 const black = '#000';
-const coffee ='#534741'
+const coffee = '#534741'
+const lightWhite = '#FFFAF7';
 
 export default {
   colors: {
@@ -26,6 +27,7 @@ export default {
     white,
     black,
     coffee,
+    lightWhite,
     text: black,
     primary: flatternColors.blue,
     secondary: flatternColors.green,

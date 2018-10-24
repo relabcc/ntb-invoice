@@ -9,8 +9,8 @@ const path = require('path');
 const merge = require('lodash/merge');
 const questions = require('./src/containers/QuestionPage/questions.json')
 
-exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions;
   return new Promise((resolve) => {
     questions.forEach((q, index) => {
       const base = 'question/';

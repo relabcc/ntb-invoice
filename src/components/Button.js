@@ -12,6 +12,7 @@ import {
   letterSpacing,
   fontWeight,
   position,
+  height,
   display,
 } from 'styled-system';
 import tag from 'clean-tag';
@@ -20,6 +21,8 @@ import Box from './Box';
 
 import { getColorByPropKey } from './utils/getColor';
 import blacklist from './utils/blacklist';
+import injectProps from './utils/injectProps';
+
 
 const active = css`
   color: ${getColorByPropKey('hoverColor')};
@@ -39,11 +42,13 @@ export const buttonStyle = css`
   ${space}
   ${color}
   ${width}
+  ${height}
   ${borders}
   ${borderColor}
   ${borderRadius}
   ${fontWeight}
   ${letterSpacing}
+  ${injectProps('whiteSpace')}
   appearance: none;
   transition: all ${themeGet('duration', 250)}ms;
   cursor: pointer;
@@ -88,15 +93,15 @@ const Button = ({
 Button.defaultProps = {
   blacklist,
   is: 'button',
-  fontSize: '1.25em',
-  border: '2px solid',
+  fontSize: '1em',
+  border: '1px solid',
   borderColor: 'coffee',
   bg: 'white',
   color: 'coffee',
   hoverColor: 'white',
   hoverBg: 'coffee',
   px: '2.5em',
-  py: '0.75em',
+  py: '1.25em',
   fontWeight: 'bold',
   iconSpacing: '0.25em',
   borderRadius: '3em',

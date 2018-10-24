@@ -10,6 +10,7 @@ injectGlobal`
 
   body {
     font-family: ${theme.font};
+    background-color: ${theme.colors.lightWhite}
   }
 
   #___gatsby {

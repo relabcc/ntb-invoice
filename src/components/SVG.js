@@ -5,10 +5,9 @@ import styled from 'styled-components';
 import Box from './Box';
 
 const Container = styled(Box)`
-  display: inline-block;
   svg {
-    vertical-align: bottom;
     width: 100%;
+    vertical-align: bottom;
   }
 `;
 

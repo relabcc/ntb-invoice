@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75.22 75.22">
+  <title>map</title>
+  <g>
+    <circle cx="37.61" cy="37.61" r="37.61" fill="#e9e0db"/>
+    <g>
+      <polyline points="55.02 70.61 55.02 51.64 71.71 51.64" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polyline points="28.47 70.61 28.47 51.64 47.43 51.64 47.43 70.61" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polyline points="5.71 51.64 20.88 51.64 20.88 70.61" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polyline points="5.71 29.64 20.88 29.64 20.88 44.06 5.71 44.06" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polyline points="20.88 4.61 20.88 22.06 5.71 22.06" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polyline points="47.43 4.61 47.43 22.06 28.47 22.06 28.47 4.61" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polyline points="71.71 22.06 55.02 22.06 55.02 4.61" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="1.5"/>
+      <polyline points="71.71 44.06 55.02 44.06 55.02 29.64 71.71 29.64" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="1.5"/>
+      <rect x="28.47" y="29.64" width="18.97" height="14.41" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle cx="34.54" cy="15.23" r="2.28" fill="#534741"/>
+      <circle cx="14.81" cy="34.95" r="2.28" fill="#68cbb6"/>
+      <circle cx="12.54" cy="57.71" r="2.28" fill="#68cbb6"/>
+      <circle cx="42.12" cy="57.71" r="2.28" fill="#68cbb6"/>
+      <circle cx="61.85" cy="17.5" r="2.28" fill="#68cbb6"/>
+      <circle cx="61.85" cy="34.95" r="2.28" fill="#68cbb6"/>
+    </g>
+  </g>
+</svg>

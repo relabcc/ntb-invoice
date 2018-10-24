@@ -31,6 +31,7 @@ const Text = styled(tag)`
   ${lineHeight}
   ${letterSpacing}
   ${position}
+  ${injectProps('whiteSpace')}
   ${injectProps('verticalAlign')}
   ${injectProps('textTransform')}
 `;

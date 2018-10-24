@@ -16,7 +16,6 @@ const DoubleLayerButton = ({
   outerBg,
   border,
   borderColor,
-  w,
   width,
   ...props
 }) => {
@@ -32,14 +31,13 @@ const DoubleLayerButton = ({
   return createElement(Box, {
     ...pickBy(margins, Boolean),
     display: 'inline-block',
-    border: '4px solid',
+    border: '2px solid',
     borderColor: props.disabled ? 'gray' : borderColor,
     borderRadius: '3em',
     p: '0.25em',
     bg: outerBg,
-    w,
     width,
-  }, <Button w={1} border={border} borderColor={borderColor} {...props} />);
+  }, <Button width={1} border={border} borderColor={borderColor} {...props} />);
 };
 
 const responsivePropTypes = PropTypes.oneOfType([
@@ -65,7 +63,7 @@ DoubleLayerButton.propTypes = {
 };
 
 DoubleLayerButton.defaultProps = {
-  border: '2px solid',
+  border: '1.2px solid',
   borderColor: 'coffee',
   outerBg: 'white',
 };
