@@ -74,7 +74,7 @@ const OpenModal = ({ isOpen, isCorrect, pageId, isLast, qId, ...props }) => (
         {pageId > 2 && (
           <Button
             is={Link}
-            to={isLast? share : '/tutorial'}
+            to="/tutorial"
             px="3em"
             mx="0.25em"
             width={['15em', 'auto']}
@@ -84,7 +84,8 @@ const OpenModal = ({ isOpen, isCorrect, pageId, isLast, qId, ...props }) => (
         )}
         <Button
           is={Link}
-          to={isLast? '/tutorial' : `/question/${pageId + 1}`}
+          to={!isLast && `/question/${pageId + 1}`}
+          href={isLast && share}
           px="3em"
           mx="0.25em"
           mb={['1em', '0']}
