@@ -14,6 +14,7 @@ import Text from '../../../components/Text';
 import BackgroundImage from '../../../components/BackgroundImage';
 import Flex from '../../../components/Flex';
 import Button from '../../../components/Button';
+import Link from '../../../components/Link';
 
 const projects = [
   {
@@ -71,7 +72,8 @@ const OpenModal = ({ isOpen, isCorrect, pageId, isLast, qId, ...props }) => (
       </Box>
       <Flex justifyContent="center" flexWrap="wrap">
         <Button
-          onClick={isLast? () => navigate('/tutorial') : () => navigate(`/question/${pageId + 1}`)}
+          is={Link}
+          to={isLast? '/tutorial' : `/question/${pageId + 1}`}
           px="3em"
           mx="0.25em"
           mb={['1em', '0']}
@@ -79,9 +81,10 @@ const OpenModal = ({ isOpen, isCorrect, pageId, isLast, qId, ...props }) => (
         >
           {isLast ? '申請條碼教學' : '下一題'}
         </Button>
-        { qId > 1 && (
+        { pageId > 2 && (
           <Button
-            onClick={isLast? () => window.open(share) : () => navigate('/tutorial')}
+            is={Link}
+            to={isLast? share : '/tutorial'}
             px="3em"
             mx="0.25em"
             width={['15em', 'auto']}

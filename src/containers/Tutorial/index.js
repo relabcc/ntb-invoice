@@ -1,7 +1,6 @@
 import React from 'react';
 import { compose } from 'redux';
 
-import title from './tutorial-title.svg';
 import subtitle from './sub-title.svg';
 import mobilesubtitle from './mobilesubtitle.svg';
 import application from './application.svg';
@@ -10,6 +9,7 @@ import show from './show.svg';
 import connect from './connect.svg';
 import won from './won.svg';
 import Step from './Step';
+import Title from './Title';
 import Picture from './Picture';
 
 import Box from '../../components/Box';
@@ -81,7 +81,7 @@ const index = ({ browser }) => {
   return (
     <Container>
       <Box px={['6%', '20%']} pb={['1.5em','3em']} pt="3em">
-        <BackgroundImage src={title} ratio={94 / 512} />
+        <Title />
       </Box>
       <Box px="10%">
         <BackgroundImage src={isMobile ? mobilesubtitle : subtitle} ratio={isMobile ? 522.74 / 606.76 : 296.94 / 763.55} />
