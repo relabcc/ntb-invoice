@@ -18,9 +18,9 @@
       <rect x="102.5" y="125.58" width="36.81" height="14.59" rx="6.97" ry="6.97" transform="translate(34.6 -24.69) rotate(13.59)" fill="#fffaf7" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
       <g>
         <rect x="99.76" y="14.78" width="82.34" height="120.31" transform="translate(63.43 -64.6) rotate(32.95)" fill="#fffaf7" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-        <text transform="matrix(0.84, 0.54, -0.54, 0.84, 145.45, 29.85)" font-size="7" fill="#534741" font-family="PingFangTC-Medium, PingFangTC Medium-B5pc-H">來來來麵包店</text>
-        <text transform="matrix(0.84, 0.54, -0.54, 0.84, 131.39, 34.58)" font-size="8.55" fill="#534741" font-family="PingFangTC-Medium, PingFangTC Medium-B5pc-H">電子發票證明聯</text>
-        <text transform="matrix(0.84, 0.54, -0.54, 0.84, 135.01, 47.46)" font-size="6.64" fill="#534741" font-family="PingFangTC-Medium, PingFangTC Medium-B5pc-H">107年11-12月</text>
+        <text transform="matrix(0.84, 0.54, -0.54, 0.84, 145.45, 29.85)" font-size="7" fill="#534741" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif">來來來麵包店</text>
+        <text transform="matrix(0.84, 0.54, -0.54, 0.84, 131.39, 34.58)" font-size="8.55" fill="#534741" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif">電子發票證明聯</text>
+        <text transform="matrix(0.84, 0.54, -0.54, 0.84, 135.01, 47.46)" font-size="6.64" fill="#534741" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif">107年11-12月</text>
         <text transform="matrix(0.84, 0.54, -0.54, 0.84, 119.4, 52.74)" font-size="9.67" fill="#534741" font-family="Arial-BoldMT, Arial" font-weight="700">AB-01234567</text>
         <g>
           <rect x="103.89" y="67.8" width="1.75" height="13.12" transform="translate(57.3 -45.02) rotate(32.95)" fill="#534741"/>

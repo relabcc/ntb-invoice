@@ -23,8 +23,8 @@
         <rect x="44.74" y="20.68" width="0.71" height="7.85" fill="#534741"/>
         <rect x="33.56" y="20.68" width="1.9" height="7.85" fill="#534741"/>
       </g>
-      <text transform="translate(29.27 36.61)" font-size="6.95" fill="#534741" font-family="PingFangTC-Medium, PingFangTC Medium-B5pc-H" letter-spacing="0.05em">發票</text>
-      <text transform="translate(31.6 53.66)" font-size="4.73" fill="#534741" font-family="PingFangTC-Semibold, PingFangTC Semibold-B5pc-H" font-weight="700" letter-spacing="0.05em">下載</text>
+      <text transform="translate(29.27 36.61)" font-size="6.95" fill="#534741" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif" letter-spacing="0.05em">發票</text>
+      <text transform="translate(31.6 53.66)" font-size="4.73" fill="#534741" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif" font-weight="700" letter-spacing="0.05em">下載</text>
       <rect x="30.52" y="4.98" width="11.76" height="1.19" rx="0.6" ry="0.6" fill="#534741"/>
     </g>
   </g>

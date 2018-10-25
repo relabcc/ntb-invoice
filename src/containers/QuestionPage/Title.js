@@ -26,7 +26,7 @@ const Title = ({ qId, pageId, ...props }) => (
           <circle cx="63.83" cy="47" r="27.94" fill="#534741" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
         </g>
         <rect x="108.47" y="21" width="366.6" height="52.5" rx="10.91" ry="10.91" fill="#534741" opacity="0.1"/>
-        <text transform="translate(136.85 55.06)" font-size="20" font-family="jf-jinxuan-fresh2.2-Regular, jf jinxuan-fresh2.2-Regular-B5pc-H" letter-spacing="0.2em">{questions[qId].title}</text>
+        <text transform="translate(136.85 55.06)" font-size="20" font-family="JinXuan-Fresh" letter-spacing="0.2em">{questions[qId].title}</text>
         <text transform="translate(55.88 62.56)" font-size="28.61" fill="#eee9e6" font-family="Helvetica, Helvetica" letter-spacing="0.2em">{pageId}</text>
         <text transform="translate(57.66 37.66)" font-size="13.25" fill="#eee9e6" font-family="HelveticaNeue-CondensedBold, HelveticaNeue CondensedBold" font-weight="700">n<tspan x="7.35" y="0" letter-spacing="-0.02em">o</tspan><tspan x="14.31" y="0">.</tspan></text>
       </g>

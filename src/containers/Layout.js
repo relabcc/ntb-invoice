@@ -30,9 +30,8 @@ const Layout = ({ children }) => (
                 { name: 'keywords', content: 'sample, something' },
               ]}
             >
-              <html lang="en" />
+              <html lang="zh-Hant-TW" />
             </Helmet>
-            {/* <Header /> */}
             {children}
           </div>
         </ThemeProvider>

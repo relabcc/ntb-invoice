@@ -4,7 +4,7 @@
     <path d="M593.76,339.83H310.41l-7-14.32-7,14.32H13a12,12,0,0,0-12,12V508.32a12,12,0,0,0,12,12H593.76a12,12,0,0,0,12-12V351.83A12,12,0,0,0,593.76,339.83Z" fill="#fffaf7" stroke="#534741" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
     <path d="M158.93,68c20-12,37.39-28,57-40.55,26.7-17.08,58-27.85,89.64-27.43S369.3,12.68,390.9,35.88C406.86,53,416.59,75.24,422,98.05c3.28,13.92,5,28.41,2.88,42.55-3.57,23.55-17.59,44.21-33.37,62a311.08,311.08,0,0,1-57.08,50.25c-11,7.53-22.56,14.45-35.19,18.7-13.69,4.62-28.31,6-42.75,5.56-27.84-.85-55.79-8.6-78.74-24.39s-40.54-39.94-46.13-67.23c-3.15-15.4-2.51-31.32-1.11-47,2.4-26.72,8.65-56.08,30.41-71.77" fill="#e9e0db"/>
     <polygon points="343.35 141.14 343.35 155.6 352.38 155.6 352.38 141.14 356.45 141.14 347.87 126.27 339.28 141.14 343.35 141.14" fill="#e9e0db"/>
-    <text transform="translate(45.76 394.82)" font-size="26" fill="#333" font-family="PingFangTC-Light, PingFangTC Light-B5pc-H">為了要跟上時代衝上雲端，不使用雲端發票的<tspan x="91" y="42">你簡直就是還活在上個年代！</tspan><tspan x="78" y="84">現在就跟我一起使用雲端發票！</tspan></text>
+    <text transform="translate(45.76 394.82)" font-size="26" fill="#333" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif">為了要跟上時代衝上雲端，不使用雲端發票的<tspan x="91" y="42">你簡直就是還活在上個年代！</tspan><tspan x="78" y="84">現在就跟我一起使用雲端發票！</tspan></text>
     <g>
       <line x1="178.21" y1="212.91" x2="178.21" y2="217.96" fill="#fff" stroke="#575956" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
       <line x1="178.21" y1="223.18" x2="178.21" y2="228.23" fill="#fff" stroke="#575956" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>

@@ -130,7 +130,7 @@
         <polygon points="459.21 212.3 373.99 212.3 372.18 202.01 457.4 202.01 459.21 212.3" fill="#e9e0db"/>
         <polygon points="461.92 227.62 376.7 227.62 374.88 217.34 460.1 217.34 461.92 227.62" fill="#e9e0db"/>
         <polygon points="464.46 242.03 379.24 242.03 377.42 231.75 462.64 231.75 464.46 242.03" fill="#e9e0db"/>
-        <text transform="matrix(0.98, 0, 0.17, 0.98, 267.14, 101.69)" font-size="19.51" fill="#534741" font-family="PingFangTC-Medium, PingFangTC Medium-B5pc-H" letter-spacing="0.1em">統一發票中獎號碼</text>
+        <text transform="matrix(0.98, 0, 0.17, 0.98, 267.14, 101.69)" font-size="19.51" fill="#534741" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif" letter-spacing="0.1em">統一發票中獎號碼</text>
         <polygon points="453.67 151.97 263.92 151.97 259.34 126 449.09 126 453.67 151.97" fill="#ffc73e"/>
         <text transform="matrix(0.98, 0, 0.17, 0.98, 310.91, 148.42)" font-size="22.38" fill="#534741" font-family="Arial-BoldMT, Arial" font-weight="700">01234567</text>
         <text transform="matrix(0.98, 0, 0.17, 0.98, 273.86, 173.74)" font-size="17.26" fill="#534741" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan letter-spacing="-0.06em">1</tspan><tspan x="8.64" y="0">1222333</tspan></text>
@@ -171,9 +171,9 @@
       <rect x="204.49" y="268.01" width="45.68" height="18.11" rx="9.05" ry="9.05" transform="translate(45.13 -31.56) rotate(8.81)" fill="#fffaf7" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
       <g>
         <rect x="195.03" y="128.7" width="102.18" height="149.29" transform="translate(125.18 -92.12) rotate(28.17)" fill="#fffaf7" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-        <text transform="translate(245.78 145.04) rotate(28.18)" font-size="9" fill="#534741" font-family="PingFangTC-Medium, PingFangTC Medium-B5pc-H">來來來麵包店</text>
-        <text transform="translate(230.12 154.54) rotate(28.18)" font-size="10.61" fill="#534741" font-family="PingFangTC-Medium, PingFangTC Medium-B5pc-H">電子發票證明聯</text>
-        <text transform="translate(235.92 170.08) rotate(28.18)" font-size="8.24" fill="#534741" font-family="PingFangTC-Medium, PingFangTC Medium-B5pc-H">107年11-12月</text>
+        <text transform="translate(245.78 145.04) rotate(28.18)" font-size="9" fill="#534741" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif">來來來麵包店</text>
+        <text transform="translate(230.12 154.54) rotate(28.18)" font-size="10.61" fill="#534741" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif">電子發票證明聯</text>
+        <text transform="translate(235.92 170.08) rotate(28.18)" font-size="8.24" fill="#534741" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif">107年11-12月</text>
         <text transform="translate(217.17 178.23) rotate(28.18)" font-size="12" fill="#534741" font-family="Arial-BoldMT, Arial" font-weight="700">AB-01234567</text>
         <g>
           <rect x="200.25" y="198.23" width="2.17" height="16.28" transform="translate(121.3 -70.61) rotate(28.17)" fill="#534741"/>

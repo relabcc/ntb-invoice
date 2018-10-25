@@ -30,7 +30,7 @@
       <line x1="0.5" y1="107.1" x2="337.7" y2="107.1" fill="none" stroke="#534741" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M337.7,89.43a9.07,9.07,0,0,0-9.06-9.07H9.56A9.07,9.07,0,0,0,.5,89.43v13.21H337.7Z" fill="#eae1dc" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
       <path d="M167,98.88C119.49,98.88,81,127.69,81,163.23,81,175,85.18,186,92.56,195.52l-9.07,13.12,16.59-5c15.78,14.58,39.91,23.9,67,23.9,47.54,0,86.08-28.8,86.08-64.34S214.57,98.88,167,98.88Z" fill="#fffbf8" stroke="#534741" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-      <text transform="translate(124.39 161.15)" font-size="21" fill="#534741" font-family="PingFangTC-Regular, PingFangTC Regular-B5pc-H">手機條碼<tspan x="10.5" y="24.82">申請處</tspan></text>
+      <text transform="translate(124.39 161.15)" font-size="21" fill="#534741" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif">手機條碼<tspan x="10.5" y="24.82">申請處</tspan></text>
     </g>
   </g>
 </svg>

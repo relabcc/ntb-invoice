@@ -10,7 +10,7 @@
       <rect x="148.06" y="69.02" width="130" height="194.16" fill="#fffbf8" stroke="#534741" stroke-miterlimit="10"/>
       <circle cx="212.56" cy="285.52" r="9.42" fill="#fffbf8" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
       <circle cx="212.56" cy="285.52" r="7.02" fill="#fffbf8" stroke="#534741" stroke-miterlimit="10"/>
-      <text transform="translate(185.79 207.1)" font-size="14" fill="#333" font-family="PingFangTC-Medium, PingFangTC Medium-B5pc-H">驗證成功</text>
+      <text transform="translate(185.79 207.1)" font-size="14" fill="#333" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif">驗證成功</text>
       <rect x="198.29" y="52.02" width="31.14" height="5" fill="#fffbf8" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
       <circle cx="188.71" cy="54.52" r="2.99" fill="#fffbf8" stroke="#534741" stroke-miterlimit="10"/>
       <g>

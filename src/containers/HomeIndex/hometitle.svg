@@ -1,5 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 549.64 120.12">
-  <title>hometitle</title>
   <g>
     <rect x="24.99" y="14.98" width="497.65" height="89.21" rx="12" ry="12" fill="#e9e0db"/>
     <g>
@@ -22,7 +21,7 @@
       </g>
       <line x1="542.52" y1="98.93" x2="542.52" y2="32.85" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
     </g>
-    <text transform="translate(203.09 53.25)" font-size="28.47" fill="#534741" font-family="jf-jinxuan-fresh2.2-Medium, jf jinxuan-fresh2.2-Medium-83pv-RKSJ-H" letter-spacing="0.2em">四個情境題</text>
-    <text transform="translate(79.07 86.69)" font-size="23.8" fill="#534741" font-family="jf-jinxuan-fresh2.2-Medium, jf jinxuan-fresh2.2-Medium-83pv-RKSJ-H" letter-spacing="0.1em">看看你<tspan x="78.54" y="0" letter-spacing="-0.38em">的</tspan><tspan x="93.29" y="0" letter-spacing="0.08em">『</tspan><tspan x="119" y="0">發票</tspan><tspan x="171.36" y="0" letter-spacing="0.08em">觀</tspan><tspan x="197.06" y="0" letter-spacing="-0.38em">』</tspan><tspan x="211.82" y="0">跟不跟得上時代</tspan></text>
+    <text transform="translate(203.09 53.25)" font-size="28.47" fill="#534741" font-family="JinXuan-Fresh" font-weight="500" letter-spacing="0.2em">四個情境題</text>
+    <text transform="translate(79.07 86.69)" font-size="23.8" fill="#534741" font-family="JinXuan-Fresh" font-weight="500" letter-spacing="0.1em">看看你<tspan x="78.54" y="0" letter-spacing="-0.38em">的</tspan><tspan x="93.29" y="0" letter-spacing="0.08em">『</tspan><tspan x="119" y="0">發票</tspan><tspan x="171.36" y="0" letter-spacing="0.08em">觀</tspan><tspan x="197.06" y="0" letter-spacing="-0.38em">』</tspan><tspan x="211.82" y="0">跟不跟得上時代</tspan></text>
   </g>
 </svg>

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Styled Gatsby Starter',
+    title: '四個情境題，看看你的『發票觀』跟不跟得上時代',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

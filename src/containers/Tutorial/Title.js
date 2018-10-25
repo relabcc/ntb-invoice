@@ -1,0 +1,31 @@
+import React from 'react';
+
+import SVG from '../../components/SVG';
+
+const Title = () => (
+  <SVG viewBox="0 0 512 94">
+    <g>
+      <g>
+        <line x1="25.54" y1="9.58" x2="486.46" y2="9.58" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+        <line x1="25.34" y1="84.42" x2="486.29" y2="84.42" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+        <rect x="1" y="1" width="510" height="92" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+        <path d="M511,27A26,26,0,0,1,485,1" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+        <circle cx="500.46" cy="12.04" r="2.46" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+        <g>
+          <path d="M485,93.56a26,26,0,0,1,26-26" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+          <circle cx="499.96" cy="83.02" r="2.46" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+        <path d="M1,67.56a26,26,0,0,1,26,26" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+        <circle cx="11.54" cy="82.52" r="2.46" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+        <g>
+          <path d="M27,1A26,26,0,0,1,1,27" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+          <circle cx="12.04" cy="11.54" r="2.46" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+      <rect x="72.7" y="21" width="366.6" height="52.5" rx="10.91" ry="10.91" fill="#eae1dc"/>
+      <text transform="translate(160 55.06)" font-size="20" fill="#534741" font-family="JinXuan-Fresh" font-weight="500" letter-spacing="0.2em">使用雲端發票教學</text>
+    </g>
+  </SVG>
+);
+
+export default Title;

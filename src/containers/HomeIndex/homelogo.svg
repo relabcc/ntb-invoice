@@ -802,9 +802,9 @@
               <rect x="429.72" y="211.06" width="1.31" height="1.31" transform="translate(-45.85 154.66) rotate(-19.36)" fill="#534741"/>
             </g>
           </g>
-          <text transform="translate(364.83 86.4) rotate(-18.86)" font-size="9" fill="#534741" font-family="PingFangTC-Medium, PingFangTC Medium-B5pc-H">來來來麵包店</text>
-          <text transform="translate(354.57 108.24) rotate(-18.86)" font-size="12.78" fill="#534741" font-family="PingFangTC-Medium, PingFangTC Medium-B5pc-H">電子發票證明聯</text>
-          <text transform="translate(373.04 115.89) rotate(-18.86)" font-size="9.93" fill="#534741" font-family="PingFangTC-Medium, PingFangTC Medium-B5pc-H">107年11-12月</text>
+          <text transform="translate(364.83 86.4) rotate(-18.86)" font-size="9" fill="#534741" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif">來來來麵包店</text>
+          <text transform="translate(354.57 108.24) rotate(-18.86)" font-size="12.78" fill="#534741" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif">電子發票證明聯</text>
+          <text transform="translate(373.04 115.89) rotate(-18.86)" font-size="9.93" fill="#534741" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif">107年11-12月</text>
           <text transform="translate(364.83 139.11) rotate(-18.86)" font-size="14.46" fill="#534741" font-family="Arial-BoldMT, Arial" font-weight="700">AB-01234567</text>
         </g>
         <path d="M494.93,215.41s-38.2-40.83-44.79-36.88-7.9,6.58,14.49,47.42c0,0,3.38,22.77,6.64,32.65" fill="#fffaf7" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>

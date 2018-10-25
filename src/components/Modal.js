@@ -34,6 +34,12 @@ export default class Modal extends PureComponent {
     }
   }
 
+  componentWillUnmount() {
+    if (this.props.isOpen) {
+      this.unfreeze();
+    }
+  }
+
   freeze = () => {
     this.scrollY = scroll.getScrollY();
     setTimeout(() => {

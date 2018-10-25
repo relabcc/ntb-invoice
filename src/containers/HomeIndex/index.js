@@ -6,13 +6,13 @@ import Box from '../../components/Box';
 import Text from '../../components/Text';
 import BackgroundImage from '../../components/BackgroundImage';
 
-import hometitle from './hometitle.svg';
 import homelogo from './homelogo.svg';
+import Title from './Title';
 
 const IndexHomePage = () => (
   <Box textAlign="center">
     <Box px="20%" py="2em">
-      <BackgroundImage src={hometitle} ratio={120.12 / 549.64} />
+      <Title />
     </Box>
     <Box px="16%">
       <BackgroundImage src={homelogo} ratio={361.27 / 638.23} />

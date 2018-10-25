@@ -48,9 +48,9 @@ const OpenModal = ({ isOpen, isCorrect, pageId, isLast, qId, ...props }) => (
       </Box>
       <Box fontWeight="bold" color="coffee" fontSize={['1em', '1.5em']} my="1.5em">
         {isCorrect ? (
-          <Text letterSpacing="0.25em">你的發票觀很跟得上時代</Text>
+          <Text fontFamily="JinXuan-Fresh" letterSpacing="0.25em">你的發票觀很跟得上時代</Text>
         ) : (
-          <Text letterSpacing="0.25em">你的發票觀還在上個時代</Text>
+          <Text fontFamily="JinXuan-Fresh" letterSpacing="0.25em">你的發票觀還在上個時代</Text>
         )}
       </Box>
       <Box py="0.25em" borderTop="2px solid" borderBottom="2px solid" borderColor="coffee" mx={['5%', '10%']} my="1em">
