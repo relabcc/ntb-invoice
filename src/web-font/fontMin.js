@@ -25,13 +25,15 @@ const texts = [
   ...question.map(({ title }) => title),
 ].join('');
 
+const textsWithoutThreePeriod = Array.from(texts).filter((char) => char !== '…').join('');
+
 const fontminMedium = fontMinGen(
   path.resolve(__dirname, './source/jf-jinxuan-fresh2.2-medium.otf'),
-  texts
+  textsWithoutThreePeriod
 );
 const fontminRegular = fontMinGen(
   path.resolve(__dirname, './source/jf-jinxuan-fresh2.2-regular.otf'),
-  texts
+  textsWithoutThreePeriod
 );
 
 Promise.all([...fontminMedium, ...fontminRegular].map(task => new Promise((res, rej) => {

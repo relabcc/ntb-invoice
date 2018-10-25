@@ -21,7 +21,7 @@ const IndexHomePage = () => (
       <Text>統一發票發行至今超過了一甲子，我們都習慣它，也對它又愛又恨！</Text>
       <Text>不過，時代在進步，你的發票觀跟得上時代嗎？</Text>
     </Box>
-    <DoubleLayerButton is={Link} to="/question/1">看看我跟不跟得上時代</DoubleLayerButton>
+    <DoubleLayerButton is={Link} to="/question/1" mb="2em">看看我跟不跟得上時代</DoubleLayerButton>
   </Box>
 );
 
