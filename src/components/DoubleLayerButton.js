@@ -65,7 +65,7 @@ DoubleLayerButton.propTypes = {
 DoubleLayerButton.defaultProps = {
   border: '1.2px solid',
   borderColor: 'coffee',
-  outerBg: 'white',
+  outerBg: 'lightWhite',
 };
 
 export default DoubleLayerButton;
