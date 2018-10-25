@@ -35,7 +35,7 @@ const projects = [
   }
 ]
 
-const share = 'http://www.facebook.com/sharer/sharer.php?u=https://localhost:8000/&t=雲端發票知多少'
+const share = 'http://www.facebook.com/sharer/sharer.php?u=https://e-invoice.relab.cc/&t=雲端發票知多少'
 
 
 const OpenModal = ({ isOpen, isCorrect, pageId, isLast, qId, ...props }) => (

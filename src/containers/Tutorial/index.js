@@ -51,7 +51,7 @@ const projects = [
   },
 ]
 
-const share = 'http://www.facebook.com/sharer/sharer.php?u=https://localhost:8000/&t=雲端發票知多少'
+const share = 'http://www.facebook.com/sharer/sharer.php?u=https://e-invoice.relab.cc/&t=雲端發票知多少'
 const apply = 'https://www.einvoice.nat.gov.tw/APMEMBERVAN/GeneralCarrier/generalCarrier!apply'
 
 const Row = ({ project, even, isMobile, index }) => {
