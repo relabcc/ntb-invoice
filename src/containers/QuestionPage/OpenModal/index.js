@@ -71,6 +71,17 @@ const OpenModal = ({ isOpen, isCorrect, pageId, isLast, qId, ...props }) => (
         </Flex>
       </Box>
       <Flex justifyContent="center" flexWrap="wrap">
+        {pageId > 2 && (
+          <Button
+            is={Link}
+            to={isLast? share : '/tutorial'}
+            px="3em"
+            mx="0.25em"
+            width={['15em', 'auto']}
+          >
+            {isLast ? '申請條碼教學' : '如何使用雲端發票'}
+          </Button>
+        )}
         <Button
           is={Link}
           to={isLast? '/tutorial' : `/question/${pageId + 1}`}
@@ -79,19 +90,8 @@ const OpenModal = ({ isOpen, isCorrect, pageId, isLast, qId, ...props }) => (
           mb={['1em', '0']}
           width={['15em', 'auto']}
         >
-          {isLast ? '申請條碼教學' : '下一題'}
+          {isLast ? '分享測驗' : '下一題'}
         </Button>
-        { pageId > 2 && (
-          <Button
-            is={Link}
-            to={isLast? share : '/tutorial'}
-            px="3em"
-            mx="0.25em"
-            width={['15em', 'auto']}
-          >
-            {isLast ? '分享測驗' : '如何使用雲端發票'}
-          </Button>
-        )}
       </Flex>
     </Box>
   </Modal>
