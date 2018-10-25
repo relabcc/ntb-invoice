@@ -1,36 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 427 330">
   <title>application</title>
   <g>
-    <rect x="33.68" y="179.65" width="50.75" height="103.23" fill="#fffbf8" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-    <rect x="33.68" y="200.29" width="50.75" height="20.65" fill="#6493d2" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="33.68" y1="179.65" x2="84.44" y2="179.65" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="33.68" y1="200.29" x2="84.44" y2="200.29" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="33.68" y1="220.94" x2="84.44" y2="220.94" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="33.68" y1="241.58" x2="84.44" y2="241.58" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="33.68" y1="262.23" x2="84.44" y2="262.23" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="33.68" y1="282.87" x2="84.44" y2="282.87" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="37.82" y1="216.62" x2="80.3" y2="216.62" fill="none" stroke="#534741" stroke-linecap="round" stroke-linejoin="round"/>
-    <line x1="37.82" y1="237.79" x2="80.3" y2="237.79" fill="none" stroke="#534741" stroke-linecap="round" stroke-linejoin="round"/>
-    <line x1="37.82" y1="258.07" x2="80.3" y2="258.07" fill="none" stroke="#534741" stroke-linecap="round" stroke-linejoin="round"/>
-    <line x1="37.82" y1="197.01" x2="80.3" y2="197.01" fill="none" stroke="#534741" stroke-linecap="round" stroke-linejoin="round"/>
-    <line x1="37.82" y1="279.25" x2="80.3" y2="279.25" fill="none" stroke="#534741" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="16.19" cy="91.08" r="4.05" fill="#534741"/>
-    <circle cx="31.38" cy="91.08" r="4.05" fill="#534741"/>
-    <circle cx="46.56" cy="91.08" r="4.05" fill="#534741"/>
-    <g>
-      <g opacity="0.1">
-        <path d="M159.66,90.53c20-12,37.39-28,57.05-40.55,26.7-17.08,58-27.84,89.64-27.43S370,35.22,391.63,58.42c16,17.15,25.69,39.36,31.05,62.17,3.28,13.92,5,28.41,2.88,42.55C422,186.69,408,207.35,392.19,225.19a311,311,0,0,1-57.08,50.24c-11,7.54-22.56,14.45-35.19,18.71-13.69,4.61-28.31,6-42.75,5.55-27.84-.85-55.79-8.6-78.74-24.39s-40.54-39.94-46.13-67.23c-3.15-15.4-2.51-31.32-1.11-47,2.4-26.72,8.65-56.07,30.41-71.77" fill="#6493d2"/>
-      </g>
-      <path d="M9.56,80.36H328.64a9.07,9.07,0,0,1,9.07,9.07v218a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0v-218A9.07,9.07,0,0,1,9.56,80.36Z" fill="#fffbf8" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-      <line x1="0.5" y1="102.64" x2="337.7" y2="102.64" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-      <rect x="254.26" y="180.15" width="50.75" height="103.23" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-      <rect x="95.98" y="180.15" width="147.96" height="103.23" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-      <rect x="33.18" y="126.81" width="271.83" height="43.87" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-      <line x1="33.18" y1="131.28" x2="305.28" y2="131.28" fill="none" stroke="#534741" stroke-miterlimit="10"/>
-      <line x1="0.5" y1="107.1" x2="337.7" y2="107.1" fill="none" stroke="#534741" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M337.7,89.43a9.07,9.07,0,0,0-9.06-9.07H9.56A9.07,9.07,0,0,0,.5,89.43v13.21H337.7Z" fill="#eae1dc" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-      <path d="M167,98.88C119.49,98.88,81,127.69,81,163.23,81,175,85.18,186,92.56,195.52l-9.07,13.12,16.59-5c15.78,14.58,39.91,23.9,67,23.9,47.54,0,86.08-28.8,86.08-64.34S214.57,98.88,167,98.88Z" fill="#fffbf8" stroke="#534741" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-      <text transform="translate(124.39 161.15)" font-size="21" fill="#534741" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif">手機條碼<tspan x="10.5" y="24.82">申請處</tspan></text>
+    <g opacity="0.1">
+      <path d="M159.66,90.53c20-12,37.39-28,57.05-40.55,26.7-17.08,58-27.84,89.64-27.43S370,35.22,391.63,58.42c16,17.15,25.69,39.36,31.05,62.17,3.28,13.92,5,28.41,2.88,42.55C422,186.69,408,207.35,392.19,225.19a311,311,0,0,1-57.08,50.24c-11,7.54-22.56,14.45-35.19,18.71-13.69,4.61-28.31,6-42.75,5.55-27.84-.85-55.79-8.6-78.74-24.39s-40.54-39.94-46.13-67.23c-3.15-15.4-2.51-31.32-1.11-47,2.4-26.72,8.65-56.07,30.41-71.77" fill="#6493d2"/>
     </g>
+    <path d="M9.56,80.36H328.64a9.07,9.07,0,0,1,9.07,9.07v218a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0v-218A9.07,9.07,0,0,1,9.56,80.36Z" fill="#fffbf8" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="0.5" y1="102.64" x2="337.7" y2="102.64" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+    <rect x="33.18" y="180.15" width="50.75" height="103.23" fill="#fffbf8" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+    <rect x="33.18" y="200.79" width="50.75" height="20.65" fill="#6493d2" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+    <rect x="254.26" y="180.15" width="50.75" height="103.23" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+    <rect x="95.98" y="180.15" width="147.96" height="103.23" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+    <rect x="33.18" y="126.81" width="271.83" height="43.87" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="33.18" y1="180.15" x2="83.94" y2="180.15" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="33.18" y1="200.79" x2="83.94" y2="200.79" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="33.18" y1="221.44" x2="83.94" y2="221.44" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="33.18" y1="242.08" x2="83.94" y2="242.08" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="33.18" y1="262.73" x2="83.94" y2="262.73" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="33.18" y1="283.37" x2="83.94" y2="283.37" fill="none" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="33.18" y1="131.28" x2="305.28" y2="131.28" fill="none" stroke="#534741" stroke-miterlimit="10"/>
+    <line x1="37.32" y1="217.12" x2="79.8" y2="217.12" fill="none" stroke="#534741" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="37.32" y1="238.29" x2="79.8" y2="238.29" fill="none" stroke="#534741" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="37.32" y1="258.57" x2="79.8" y2="258.57" fill="none" stroke="#534741" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="37.32" y1="197.51" x2="79.8" y2="197.51" fill="none" stroke="#534741" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0.5" y1="107.1" x2="337.7" y2="107.1" fill="none" stroke="#534741" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="37.32" y1="279.75" x2="79.8" y2="279.75" fill="none" stroke="#534741" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M337.7,89.43a9.07,9.07,0,0,0-9.06-9.07H9.56A9.07,9.07,0,0,0,.5,89.43v13.21H337.7Z" fill="#eae1dc" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
+    <circle cx="15.69" cy="91.58" r="4.05" fill="#534741"/>
+    <circle cx="30.88" cy="91.58" r="4.05" fill="#534741"/>
+    <circle cx="46.06" cy="91.58" r="4.05" fill="#534741"/>
+    <path d="M167,98.88C119.49,98.88,81,127.69,81,163.23,81,175,85.18,186,92.56,195.52l-9.07,13.12,16.59-5c15.78,14.58,39.91,23.9,67,23.9,47.54,0,86.08-28.8,86.08-64.34S214.57,98.88,167,98.88Z" fill="#fffbf8" stroke="#534741" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <text transform="translate(124.39 161.15)" font-size="21" fill="#534741" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif">手機條碼<tspan x="10.5" y="24.82">申請處</tspan></text>
   </g>
 </svg>

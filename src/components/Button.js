@@ -13,6 +13,8 @@ import {
   fontWeight,
   position,
   height,
+  lineHeight,
+  minHeight,
   display,
 } from 'styled-system';
 import tag from 'clean-tag';
@@ -47,6 +49,8 @@ export const buttonStyle = css`
   ${borderColor}
   ${borderRadius}
   ${fontWeight}
+  ${lineHeight}
+  ${minHeight}
   ${letterSpacing}
   ${injectProps('whiteSpace')}
   appearance: none;

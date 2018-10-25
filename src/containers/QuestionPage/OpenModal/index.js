@@ -18,11 +18,11 @@ import Link from '../../../components/Link';
 
 const projects = [
   {
-    text: '自108年1月1日起\n擴大兌獎服務據點至金融機構與四大超商等，郵局不再提供兌獎服務。',
+    text: <Text><b>自108年1月1日起</b><br />擴大兌獎服務據點至金融機構與四大超商等，郵局不再提供兌獎服務。</Text>,
     src: map
   },
   {
-    text: '自108年1月1日起\n新增使用行動裝置下載財政部兌獎行動應用程式，即時兌領電子發票中獎獎金服務。',
+    text: <Text><b>自108年1月1日起</b><br />新增使用行動裝置下載財政部兌獎行動應用程式，即時兌領電子發票中獎獎金服務。</Text>,
     src: invoice
   },
   {
@@ -43,29 +43,29 @@ const OpenModal = ({ isOpen, isCorrect, pageId, isLast, qId, ...props }) => (
     isOpen={isOpen}
     {...props}
   >
-    <Box textAlign="center" py="3em">
-      <Box px="30%">
+    <Box width={['80vw', 'unset']} textAlign="center" py={['1em', '3em']}>
+      <Box px={['20%', '30%']}>
         <BackgroundImage src={isCorrect ? fashion : tradition} ratio={207 / 259} />
       </Box>
-      <Box fontWeight="bold" color="coffee" fontSize={['1em', '1.5em']} my="1.5em">
+      <Box fontWeight="bold" color="coffee" fontSize={['1.2em', '1.5em']} my="0.8em">
         {isCorrect ? (
           <Text fontFamily="JinXuan-Fresh" letterSpacing="0.25em">你的發票觀很跟得上時代</Text>
         ) : (
           <Text fontFamily="JinXuan-Fresh" letterSpacing="0.25em">你的發票觀還在上個時代</Text>
         )}
       </Box>
-      <Box py="0.25em" borderTop="2px solid" borderBottom="2px solid" borderColor="coffee" mx={['5%', '10%']} my="1em">
+      <Box py="0.25em" borderTop="2px solid" borderBottom="2px solid" borderColor="coffee" mx={['5%', '10%']} my="1.5em">
         <Flex
           borderTop="1.2px solid"
           borderBottom="1.2px solid"
           borderColor="coffee"
-          p="1.5em"
+          py="1.5em"
           alignItems="center"
         >
-          <Box width={['12em', '6em']} mr="1em">
+          <Box width={['15em', '6em']} mr="1em">
             <BackgroundImage src={projects[qId].src} ratio={1} />
           </Box>
-          <Box textAlign="left" whiteSpace="pre-wrap">
+          <Box textAlign="left" lineHeight="1.5">
             {projects[qId].text}
           </Box>
         </Flex>
@@ -77,6 +77,7 @@ const OpenModal = ({ isOpen, isCorrect, pageId, isLast, qId, ...props }) => (
             to="/tutorial"
             px="3em"
             mx="0.25em"
+            mb={['1em', '0']}
             width={['15em', 'auto']}
           >
             {isLast ? '申請條碼教學' : '如何使用雲端發票'}
@@ -88,7 +89,6 @@ const OpenModal = ({ isOpen, isCorrect, pageId, isLast, qId, ...props }) => (
           href={isLast && share}
           px="3em"
           mx="0.25em"
-          mb={['1em', '0']}
           width={['15em', 'auto']}
         >
           {isLast ? '分享測驗' : '下一題'}

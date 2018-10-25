@@ -11,13 +11,13 @@ import Title from './Title';
 
 const IndexHomePage = () => (
   <Box textAlign="center">
-    <Box px="20%" py="2em">
+    <Box px={['6%', '20%']} py="2em">
       <Title />
     </Box>
-    <Box px="16%">
+    <Box px={['8%', '16%']}>
       <BackgroundImage src={homelogo} ratio={361.27 / 638.23} />
     </Box>
-    <Box py="1.5em">
+    <Box py="1.5em" px={['5%', '0']}>
       <Text>統一發票發行至今超過了一甲子，我們都習慣它，也對它又愛又恨！</Text>
       <Text>不過，時代在進步，你的發票觀跟得上時代嗎？</Text>
     </Box>

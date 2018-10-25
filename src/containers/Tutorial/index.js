@@ -86,7 +86,7 @@ const index = ({ browser }) => {
       <Box px="10%">
         <BackgroundImage src={isMobile ? mobilesubtitle : subtitle} ratio={isMobile ? 522.74 / 606.76 : 296.94 / 763.55} />
       </Box>
-      <Box pt={['0.25em','3em']} pb={['1em','3em']} px={['8%', '12%']} borderBottom="2px solid">
+      <Box pt={['0.25em','3em']} pb={['1em','3em']} px={['6%', '8%']} borderBottom="2px solid">
         {projects.map((project, index) => (
           <Row
             key={index}

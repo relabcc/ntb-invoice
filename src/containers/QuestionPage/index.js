@@ -46,7 +46,9 @@ class QuestionPage extends PureComponent {
                 <DoubleLayerButton
                   whiteSpace="pre"
                   width="18em"
-                  height="4.5em"
+                  minHeight="4.5em"
+                  lineHeight="1.5"
+                  py="0.5em"
                   px="2em"
                   onClick={() => this.handleChoose(index)}
                 >

@@ -29,6 +29,8 @@ const Layout = ({ children }) => (
               ]}
             >
               <html lang="zh-Hant-TW" />
+              <meta property="og:url" content="https://e-invoice.relab.cc" />
+              <meta property="og:image" content="https://e-invoice.relab.cc/fb.png" />
             </Helmet>
             {children}
           </div>

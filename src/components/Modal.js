@@ -7,15 +7,14 @@ ReactModal.setAppElement('#___gatsby');
 const customStyles = {
   overlay: {
     zIndex: 99,
-    background: 'rgba(0,0,0,0.8)',
+    background: 'rgba(0,0,0,0.5)',
   },
   content: {
     top: '50%',
     left: '50%',
-    right: 'auto',
-    bottom: 'auto',
+    right: 'unset',
+    bottom: 'unset',
     transform: 'translate(-50%, -50%)',
-    marginRight: '-50%',
     padding: '1em',
     border: 'none',
     overflow: 'visible',
