@@ -96,7 +96,7 @@ Button.defaultProps = {
   fontSize: '1em',
   border: '1px solid',
   borderColor: 'coffee',
-  bg: 'white',
+  bg: 'lightWhite',
   color: 'coffee',
   hoverColor: 'white',
   hoverBg: 'coffee',
