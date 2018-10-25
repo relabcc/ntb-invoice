@@ -6,7 +6,6 @@ import { Provider } from 'react-redux';
 
 import createStore from '../stores/createStore';
 import ThemeProvider from '../components/ThemeProvider';
-import Header from './Header'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -26,8 +25,7 @@ const Layout = ({ children }) => (
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Sample' },
-                { name: 'keywords', content: 'sample, something' },
+                { name: 'description', content: '統一發票發行至今超過了一甲子，我們都習慣它，也對它又愛又恨！不過，時代在進步，你的發票觀跟得上時代嗎？' },
               ]}
             >
               <html lang="zh-Hant-TW" />

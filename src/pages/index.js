@@ -1,16 +1,18 @@
 import React from 'react'
 
 import HomeIndex from '../containers/HomeIndex'
+import Layout from '../containers/Layout'
 import Container from '../components/Container'
-import withLayout from '../hoc/withLayout';
 import VerticalCenter from '../components/VerticalCenter';
 
 const IndexPage = () => (
-  <Container height="100vh">
-    <VerticalCenter>
-      <HomeIndex />
-    </VerticalCenter>
-  </Container>
+  <Layout>
+    <Container height="100vh">
+      <VerticalCenter>
+        <HomeIndex />
+      </VerticalCenter>
+    </Container>
+  </Layout>
 )
 
-export default withLayout(IndexPage)
+export default (IndexPage)
