@@ -88,8 +88,8 @@ const index = ({ browser }) => {
   const isMobile = browser.lessThan.sm;
   return (
     <Container>
-      <Box px={['6%', '20%']} pb={['1.5em','3em']} pt="3em">
-        <Title />
+      <Box px={[0, '20%']} pb={['1.5em','3em']} pt="3em">
+        <Title isMobile={isMobile} />
       </Box>
       <Box px="10%">
         <BackgroundImage src={isMobile ? mobilesubtitle : subtitle} ratio={isMobile ? 522.74 / 606.76 : 296.94 / 763.55} />

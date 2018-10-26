@@ -5,17 +5,17 @@
       <path d="M94.89,92.48c20-12.06,37.4-28,57.06-40.56,26.69-17.08,57.94-27.84,89.63-27.43s63.68,12.67,85.28,35.87c16,17.15,25.69,39.36,31.06,62.17,3.27,13.93,5,28.41,2.87,42.55-3.57,23.55-17.58,44.21-33.37,62a311,311,0,0,1-57.08,50.24c-11,7.54-22.56,14.45-35.18,18.71-13.69,4.61-28.32,6-42.76,5.55-27.84-.85-55.79-8.6-78.74-24.39S73.12,237.3,67.53,210c-3.15-15.4-2.51-31.32-1.11-47,2.4-26.72,8.65-56.07,30.41-71.77" fill="#6493d2"/>
     </g>
     <g>
-      <rect x="127.56" y="41.52" width="171" height="264" rx="9.07" ry="9.07" fill="#eae1dc" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-      <rect x="142.56" y="64.68" width="141" height="202.84" fill="#fffbf8" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-      <rect x="148.06" y="69.02" width="130" height="194.16" fill="#fffbf8" stroke="#534741" stroke-miterlimit="10"/>
-      <circle cx="212.56" cy="285.52" r="9.42" fill="#fffbf8" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-      <circle cx="212.56" cy="285.52" r="7.02" fill="#fffbf8" stroke="#534741" stroke-miterlimit="10"/>
+      <rect x="127.56" y="41.52" width="171" height="264" rx="9.07" ry="9.07" fill="#eae1dc" stroke="#534741" stroke-width="2"/>
+      <rect x="142.56" y="64.68" width="141" height="202.84" fill="#fffbf8" stroke="#534741" stroke-width="2"/>
+      <rect x="148.06" y="69.02" width="130" height="194.16" fill="#fffbf8" stroke="#534741"/>
+      <circle cx="212.56" cy="285.52" r="9.42" fill="#fffbf8" stroke="#534741" stroke-width="2"/>
+      <circle cx="212.56" cy="285.52" r="7.02" fill="#fffbf8" stroke="#534741"/>
       <text transform="translate(185.79 207.1)" font-size="14" fill="#333" font-family="'PingFang TC','HeiTi TC','Microsoft JhengHei',sans-serif">驗證成功</text>
-      <rect x="198.29" y="52.02" width="31.14" height="5" fill="#fffbf8" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-      <circle cx="188.71" cy="54.52" r="2.99" fill="#fffbf8" stroke="#534741" stroke-miterlimit="10"/>
+      <rect x="198.29" y="52.02" width="31.14" height="5" fill="#fffbf8" stroke="#534741" stroke-width="2"/>
+      <circle cx="188.71" cy="54.52" r="2.99" fill="#fffbf8" stroke="#534741"/>
       <g>
-        <circle cx="213.79" cy="147.52" r="34.5" fill="#6493d2" stroke="#534741" stroke-miterlimit="10" stroke-width="2"/>
-        <polyline points="195.69 148.27 207.18 158.99 231.88 136.05" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="7"/>
+        <circle cx="213.79" cy="147.52" r="34.5" fill="#6493d2" stroke="#534741" stroke-width="2"/>
+        <polyline points="195.69 148.27 207.18 158.99 231.88 136.05" fill="none" stroke="#fff" stroke-width="7"/>
       </g>
     </g>
   </g>
