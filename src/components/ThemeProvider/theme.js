@@ -14,7 +14,7 @@ const generateFade = (r, g, b) => range(10, 100, 10)
 
 const flatternColors = mapValues(colors, (listOfColors) => listOfColors[5]);
 
-const font = 'Arial, "PingFang TC", "HeiTi TC", "Microsoft JhengHei", sans-serif';
+const font = 'Helvatica, Arial, "PingFang TC", "HeiTi TC", "Microsoft JhengHei", sans-serif';
 
 const white = '#fff';
 const black = '#000';

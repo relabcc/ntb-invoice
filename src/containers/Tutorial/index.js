@@ -21,8 +21,6 @@ import withLayout from '../../hoc/withLayout';
 import Link from '../../components/Link';
 import withResponsive from '../../hoc/withResponsive';
 
-
-
 const projects = [
   {
     img: application,
@@ -51,7 +49,7 @@ const projects = [
   },
 ]
 
-const share = 'http://www.facebook.com/sharer/sharer.php?u=https://e-invoice.relab.cc/&t=雲端發票知多少'
+const share = 'http://www.facebook.com/sharer/sharer.php?u=https://e-invoice.relab.cc/'
 const apply = 'https://www.einvoice.nat.gov.tw/APMEMBERVAN/GeneralCarrier/generalCarrier!apply'
 
 const Row = ({ project, even, isMobile, index }) => {
@@ -76,6 +74,16 @@ const Row = ({ project, even, isMobile, index }) => {
   );
 }
 
+const ActionButton = (props) => (
+  <DoubleLayerButton
+    is={Link}
+    px="3em"
+    mx="0.5em"
+    width={['18em', '13em']}
+    {...props}
+  />
+);
+
 const index = ({ browser }) => {
   const isMobile = browser.lessThan.sm;
   return (
@@ -98,12 +106,12 @@ const index = ({ browser }) => {
         ))}
       </Box>
       <Flex justifyContent="center" textAlign="center" py="3em" flexWrap="wrap">
-        <DoubleLayerButton is={Link} href={apply} px="3em" mx="0.25em" width={['18em', '13em']} mb={['1em', 0]}>
+        <ActionButton href={apply} mb={['1em', 0]}>
           申請手機條碼
-        </DoubleLayerButton>
-        <DoubleLayerButton is={Link} href={share} px="3em" mx="0.25em" width={['18em', '13em']}>
+        </ActionButton>
+        <ActionButton href={share}>
           分享測驗
-        </DoubleLayerButton>
+        </ActionButton>
       </Flex>
     </Container>
   );
