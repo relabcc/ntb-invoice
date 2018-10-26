@@ -49,7 +49,7 @@ const projects = [
   },
 ]
 
-const share = 'http://www.facebook.com/sharer/sharer.php?u=https://e-invoice.relab.cc/'
+const share = 'https://www.facebook.com/sharer/sharer.php?u=https://e-invoice.relab.cc/'
 const apply = 'https://www.einvoice.nat.gov.tw/APMEMBERVAN/GeneralCarrier/generalCarrier!apply'
 
 const Row = ({ project, even, isMobile, index }) => {
