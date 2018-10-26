@@ -13,24 +13,27 @@ const Layout = ({ children }) => (
       query SiteTitleQuery {
         site {
           siteMetadata {
-            title
+            title,
+            description
           }
         }
       }
     `}
-    render={(data) => (
+    render={({ site: { siteMetadata: { title, description } } }) => (
       <Provider store={createStore()}>
         <ThemeProvider>
           <div>
             <Helmet
-              title={data.site.siteMetadata.title}
+              title={title}
               meta={[
-                { name: 'description', content: '統一發票發行至今超過了一甲子，我們都習慣它，也對它又愛又恨！不過，時代在進步，你的發票觀跟得上時代嗎？' },
+                { name: 'description', content: description },
               ]}
             >
               <html lang="zh-Hant-TW" />
               <meta property="og:url" content="https://e-invoice.relab.cc" />
               <meta property="og:image" content="https://e-invoice.relab.cc/fb.png" />
+              <meta property="og:title" content={title} />
+              <meta property="og:description" content={description} />
             </Helmet>
             {children}
           </div>
