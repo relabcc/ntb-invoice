@@ -18,6 +18,7 @@ import {
   display,
 } from 'styled-system';
 import tag from 'clean-tag';
+import bowser from 'bowser';
 
 import Box from './Box';
 
@@ -25,6 +26,11 @@ import { getColorByPropKey } from './utils/getColor';
 import blacklist from './utils/blacklist';
 import injectProps from './utils/injectProps';
 
+let isTouch;
+if (typeof window !== 'undefined') {
+  const browser = bowser.getParser(window.navigator.userAgent);
+  isTouch = browser.getPlatform().type !== 'desktop';
+}
 
 const active = css`
   color: ${getColorByPropKey('hoverColor')};
@@ -56,7 +62,10 @@ export const buttonStyle = css`
   appearance: none;
   transition: all ${themeGet('duration', 250)}ms;
   cursor: pointer;
-  &:hover,
+  &:hover {
+    ${(props) => !props.disabled && !isTouch && active}
+    outline: none;
+  }
   &:focus {
     ${(props) => !props.disabled && active}
     outline: none;

@@ -21,8 +21,6 @@ import withLayout from '../../hoc/withLayout';
 import Link from '../../components/Link';
 import withResponsive from '../../hoc/withResponsive';
 
-
-
 const projects = [
   {
     img: application,
@@ -76,12 +74,22 @@ const Row = ({ project, even, isMobile, index }) => {
   );
 }
 
+const ActionButton = (props) => (
+  <DoubleLayerButton
+    is={Link}
+    px="3em"
+    mx="0.5em"
+    width={['18em', '13em']}
+    {...props}
+  />
+);
+
 const index = ({ browser }) => {
   const isMobile = browser.lessThan.sm;
   return (
     <Container>
-      <Box px={['6%', '20%']} pb={['1.5em','3em']} pt="3em">
-        <Title />
+      <Box px={[0, '20%']} pb={['1.5em','3em']} pt="3em">
+        <Title isMobile={isMobile} />
       </Box>
       <Box px="10%">
         <BackgroundImage src={isMobile ? mobilesubtitle : subtitle} ratio={isMobile ? 522.74 / 606.76 : 296.94 / 763.55} />
@@ -98,12 +106,12 @@ const index = ({ browser }) => {
         ))}
       </Box>
       <Flex justifyContent="center" textAlign="center" py="3em" flexWrap="wrap">
-        <DoubleLayerButton is={Link} href={apply} px="3em" mx="0.25em" width={['18em', '13em']} mb={['1em', 0]}>
+        <ActionButton href={apply} mb={['1em', 0]}>
           申請手機條碼
-        </DoubleLayerButton>
-        <DoubleLayerButton is={Link} href={share} px="3em" mx="0.25em" width={['18em', '13em']}>
+        </ActionButton>
+        <ActionButton href={share}>
           分享測驗
-        </DoubleLayerButton>
+        </ActionButton>
       </Flex>
     </Container>
   );

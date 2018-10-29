@@ -3,9 +3,9 @@
   <g>
     <circle cx="37.61" cy="37.61" r="37.61" fill="#e9e0db"/>
     <g>
-      <rect x="14.88" y="2.32" width="46.13" height="71.22" rx="5.5" ry="5.5" fill="#fffaf7" stroke="#534741" stroke-miterlimit="10" stroke-width="1.5"/>
-      <rect x="18.92" y="8.57" width="38.04" height="54.72" fill="#fffaf7" stroke="#534741" stroke-miterlimit="10" stroke-width="1.5"/>
-      <circle cx="37.81" cy="68.14" r="1.89" fill="#fffaf7" stroke="#534741" stroke-miterlimit="10"/>
+      <rect x="14.88" y="2.32" width="46.13" height="71.22" rx="5.5" ry="5.5" fill="#fffaf7" stroke="#534741" stroke-width="1.5"/>
+      <rect x="18.92" y="8.57" width="38.04" height="54.72" fill="#fffaf7" stroke="#534741" stroke-width="1.5"/>
+      <circle cx="37.81" cy="68.14" r="1.89" fill="#fffaf7" stroke="#534741"/>
       <rect x="31.65" y="4.79" width="11.76" height="1.19" rx="0.6" ry="0.6" fill="#534741"/>
       <g>
         <rect x="24.66" y="29.65" width="0.95" height="10.49" fill="#534741"/>

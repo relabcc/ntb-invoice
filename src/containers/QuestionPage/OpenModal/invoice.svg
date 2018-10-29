@@ -3,11 +3,11 @@
   <g>
     <circle cx="37.61" cy="37.61" r="37.61" fill="#e9e0db"/>
     <g>
-      <rect x="13.74" y="2.5" width="46.13" height="71.22" rx="5.5" ry="5.5" fill="#fffaf7" stroke="#534741" stroke-miterlimit="10" stroke-width="1.5"/>
-      <rect x="17.79" y="8.75" width="38.04" height="54.72" fill="#fffaf7" stroke="#534741" stroke-miterlimit="10" stroke-width="1.5"/>
-      <circle cx="36.67" cy="68.32" r="1.89" fill="#fffaf7" stroke="#534741" stroke-miterlimit="10"/>
-      <rect x="23.99" y="16.1" width="25.52" height="25.52" rx="3.37" ry="3.37" fill="#ffc73e" stroke="#534741" stroke-miterlimit="10"/>
-      <rect x="23.99" y="47.19" width="25.52" height="8.77" rx="4.39" ry="4.39" fill="#fffaf7" stroke="#534741" stroke-miterlimit="10"/>
+      <rect x="13.74" y="2.5" width="46.13" height="71.22" rx="5.5" ry="5.5" fill="#fffaf7" stroke="#534741" stroke-width="1.5"/>
+      <rect x="17.79" y="8.75" width="38.04" height="54.72" fill="#fffaf7" stroke="#534741" stroke-width="1.5"/>
+      <circle cx="36.67" cy="68.32" r="1.89" fill="#fffaf7" stroke="#534741"/>
+      <rect x="23.99" y="16.1" width="25.52" height="25.52" rx="3.37" ry="3.37" fill="#ffc73e" stroke="#534741"/>
+      <rect x="23.99" y="47.19" width="25.52" height="8.77" rx="4.39" ry="4.39" fill="#fffaf7" stroke="#534741"/>
       <g>
         <rect x="26.9" y="20.68" width="0.71" height="7.85" fill="#534741"/>
         <rect x="28.57" y="20.68" width="0.71" height="7.85" fill="#534741"/>

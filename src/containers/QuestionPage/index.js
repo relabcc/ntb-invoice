@@ -16,7 +16,6 @@ import BackgroundImage from '../../components/BackgroundImage';
 import withLayout from '../../hoc/withLayout';
 import VerticalCenter from '../../components/VerticalCenter';
 
-
 class QuestionPage extends PureComponent {
   state = {
   }
@@ -36,7 +35,7 @@ class QuestionPage extends PureComponent {
     return (
       <Container pt="2em" textAlign="center" height="100vh">
         <VerticalCenter>
-          <Title px={['10%', '20.5%']} pageId={pageId} qId={qId} />
+          <Title px={['5%', '20.5%']} pageId={pageId} qId={qId} />
           <Box px={['3%', '12%']} py="2em">
             <BackgroundImage src={qpictures[qId]} ratio={406 / 691} />
           </Box>
