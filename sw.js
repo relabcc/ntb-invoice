@@ -11,8 +11,8 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("workbox-v3.6.3/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "workbox-v3.6.3"});
+importScripts("workbox-v3.6.2/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "workbox-v3.6.2"});
 
 workbox.core.setCacheNameDetails({prefix: "gatsby-plugin-offline"});
 
@@ -26,21 +26,21 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-a8e76a1cb1d4438993ae.js"
+    "url": "webpack-runtime-d256e142e9076e00e8d8.js"
   },
   {
-    "url": "app-22d67278f5450d499776.js"
+    "url": "app-fc7108ec08fd2ed8957b.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-affa5e1527c90fe35356.js"
   },
   {
     "url": "index.html",
-    "revision": "4a947299d1013a061c67695adfde8456"
+    "revision": "0874dcedc2769b62cf76fca5aab80488"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "ae40264e7c2939860fe73da731d6e371"
+    "revision": "dac52b4ef277788cede8d8912740cf04"
   },
   {
     "url": "0.78c63de6853ccec833a0.css"
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "component---src-pages-index-js-62c3f97da47321adac79.js"
   },
   {
-    "url": "0-e042bd0a35fa939fb3b0.js"
+    "url": "0-5e59955b4061a14795ba.js"
   },
   {
     "url": "static/d/173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E.json",
@@ -71,7 +71,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "c9edbbb7b6673e2a4495f825d63ba29c"
+    "revision": "55a9292126f8836e91e5d40b0a8cb54f"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
