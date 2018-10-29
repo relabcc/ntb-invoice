@@ -54,7 +54,7 @@ class QuestionPage extends PureComponent {
                   whiteSpace="pre"
                   width="18em"
                   minHeight="4.5em"
-                  lineHeight="1.5"
+                  lineHeight="1.2"
                   py="0.5em"
                   px="2em"
                   onClick={() => this.handleChoose(index)}
