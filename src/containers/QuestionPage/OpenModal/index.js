@@ -35,7 +35,7 @@ const projects = [
   }
 ]
 
-const share = 'https://www.facebook.com/sharer/sharer.php?u=https://e-invoice.relab.cc/'
+const share = 'https://www.facebook.com/sharer/sharer.php?u=https://e-invoice.relab.cc/&q4'
 
 
 const OpenModal = ({ isOpen, isCorrect, pageId, isLast, qId, ...props }) => (

@@ -17,16 +17,24 @@ import withLayout from '../../hoc/withLayout';
 import VerticalCenter from '../../components/VerticalCenter';
 
 class QuestionPage extends PureComponent {
+  static getDerivedStateFromProps(nextProps) {
+    return {
+      question: nextProps.pageContext,
+    }
+  }
+
   state = {
   }
 
   handleChoose = (value) => {
+    if (window.ga) {
+      window.ga('send', 'event', '回答問題', `第${this.state.question.id}題`, value);
+    }
     this.setState({ showAnswer : true, select : value })
   }
 
   render() {
-    const { pageContext: question } = this.props;
-    const { showAnswer, select } = this.state;
+    const { showAnswer, select, question } = this.state;
     const pageId = question.id;
     const qId = question.id - 1;
     const last = question.isLast;

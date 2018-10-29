@@ -11,8 +11,7 @@ import {
 } from 'styled-system';
 import tag from 'clean-tag';
 import GatsbyLink from 'gatsby-link';
-import Box from './Box';
-import { buttonStyle } from './Button'
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 import blacklist from './utils/blacklist';
 import { getColorByPropKey } from './utils/getColor';
@@ -50,7 +49,7 @@ const Link = ({ to, button, blacklist, ...props }) => {
   }
   return (
     <NomalLink
-      is="a"
+      is={OutboundLink}
       target="_blank"
       blacklist={blacklist}
       { ...props }
