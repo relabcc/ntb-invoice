@@ -62,10 +62,10 @@ const OpenModal = ({ isOpen, isCorrect, pageId, isLast, qId, ...props }) => (
           py="1.5em"
           alignItems="center"
         >
-          <Box width={['15em', '6em']} mr="1em">
+          <Box width={[1 / 4, 1 / 5]} mr="1em">
             <BackgroundImage src={projects[qId].src} ratio={1} />
           </Box>
-          <Box textAlign="left" lineHeight="1.5">
+          <Box width={[3 / 4, 4 / 5]} textAlign="left" lineHeight="1.5">
             {projects[qId].text}
           </Box>
         </Flex>

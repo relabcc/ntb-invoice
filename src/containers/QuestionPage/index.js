@@ -52,7 +52,7 @@ class QuestionPage extends PureComponent {
               <Box mx="0.25em" key={index} my={['0.5em', null, '0']}>
                 <DoubleLayerButton
                   whiteSpace="pre"
-                  width="18em"
+                  width="19em"
                   minHeight="4.5em"
                   lineHeight="1.2"
                   py="0.5em"
