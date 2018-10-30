@@ -1,5 +1,6 @@
 import React from 'react';
 import { compose } from 'redux';
+import styled from 'styled-components';
 
 import subtitle from './sub-title.svg';
 import mobilesubtitle from './mobilesubtitle.svg';
@@ -22,13 +23,19 @@ import withLayout from '../../hoc/withLayout';
 import Link from '../../components/Link';
 import withResponsive from '../../hoc/withResponsive';
 
+const LinkWithUnderline = styled(Link)`
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
 const projects = [
   {
     img: application,
     sub: '申請手機條碼',
     descrip: (
       <Text>
-        至<Link href="https://www.einvoice.nat.gov.tw/index" color="blue">電子發票整合服務平台</Link>，點選左側「手機條碼申請處」輸入手機號碼和E-mail，以及圖形上之驗證碼
+        至<LinkWithUnderline href="https://www.einvoice.nat.gov.tw/index" color="blue">電子發票整合服務平台</LinkWithUnderline>，點選左側「手機條碼申請處」輸入手機號碼和E-mail，以及圖形上之驗證碼
       </Text>
     ),
   },

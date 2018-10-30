@@ -31,7 +31,6 @@ const linkStyle = css`
   cursor: pointer;
   &:hover {
     color: ${getColorByPropKey('hoverColor')};
-    text-decoration: underline;
   }
 `;
 
