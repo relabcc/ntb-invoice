@@ -1,4 +1,6 @@
 import React from 'react';
+import styled from 'styled-components';
+
 
 import fashion from './fashion.svg';
 import tradition from './tradition.svg';
@@ -15,6 +17,12 @@ import Flex from '../../../components/Flex';
 import Button from '../../../components/Button';
 import Link from '../../../components/Link';
 import Tooltip from '../../../components/Tooltip';
+
+const BoxSE = styled(Box)`
+  @media (max-width: 321px) {
+    font-size: 1em;
+  }
+`;
 
 const projects = [
   {
@@ -56,13 +64,13 @@ const OpenModal = ({ isOpen, isCorrect, pageId, isLast, qId, ...props }) => (
       <Box px={['20%', '30%']}>
         <BackgroundImage src={isCorrect ? fashion : tradition} ratio={207 / 259} />
       </Box>
-      <Box fontWeight="bold" color="coffee" fontSize={['1.2em', '1.5em']} my="0.8em">
+      <BoxSE fontWeight="bold" color="coffee" fontSize={['1.2em', '1.5em']} my="0.8em">
         {isCorrect ? (
           <Text fontFamily="JinXuan-Fresh" letterSpacing="0.25em">你的發票觀很跟得上時代</Text>
         ) : (
           <Text fontFamily="JinXuan-Fresh" letterSpacing="0.25em">你的發票觀還在上個時代</Text>
         )}
-      </Box>
+      </BoxSE>
       <Box py="0.25em" borderTop="2px solid" borderBottom="2px solid" borderColor="coffee" mx={['5%', '10%']} my="1.5em">
         <Flex
           borderTop="1.2px solid"
