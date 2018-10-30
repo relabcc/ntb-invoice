@@ -28,7 +28,7 @@ const projects = [
     sub: '申請手機條碼',
     descrip: (
       <Text>
-        至<a href="https://www.einvoice.nat.gov.tw/index" target="_blank">電子發票整合服務平台</a>，點選左側「手機條碼申請處」輸入手機號碼和E-mail，以及圖形上之驗證碼
+        至<Link href="https://www.einvoice.nat.gov.tw/index" color="blue">電子發票整合服務平台</Link>，點選左側「手機條碼申請處」輸入手機號碼和E-mail，以及圖形上之驗證碼
       </Text>
     ),
   },

@@ -13,7 +13,7 @@ const Ttp = ({
     overlay={overlay}
     arrowContent={<div className="rc-tooltip-arrow-inner"></div>}
   >
-    <Text.inline fontWeight="bold" color="rgb(100, 146, 209)">{children}</Text.inline>
+    <Text.inline fontWeight="bold" color="blue">{children}</Text.inline>
   </Tooltip>
 );
 

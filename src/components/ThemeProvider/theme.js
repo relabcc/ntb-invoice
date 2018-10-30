@@ -20,6 +20,7 @@ const white = '#fff';
 const black = '#000';
 const coffee = '#534741'
 const lightWhite = '#FFFAF7';
+const blue = 'rgb(100, 146, 209)'
 
 export default {
   colors: {
@@ -28,6 +29,7 @@ export default {
     black,
     coffee,
     lightWhite,
+    blue,
     text: black,
     primary: flatternColors.blue,
     secondary: flatternColors.green,

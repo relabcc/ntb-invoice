@@ -28,8 +28,10 @@ const linkStyle = css`
   ${({ disabled }) => disabled && `
     pointer-events: none;
   `}
+  cursor: pointer;
   &:hover {
     color: ${getColorByPropKey('hoverColor')};
+    text-decoration: underline;
   }
 `;
 
