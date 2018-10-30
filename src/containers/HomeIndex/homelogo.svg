@@ -813,10 +813,10 @@
     <line x1="533.92" y1="84.6" x2="564.4" y2="59.67" fill="none" stroke="#534741" stroke-width="2"/>
     <line x1="253.08" y1="324.28" x2="242.46" y2="343.77" fill="none" stroke="#534741" stroke-width="2"/>
     <line x1="79.67" y1="84.32" x2="53" y2="59.95" fill="none" stroke="#534741" stroke-width="2"/>
-    <text transform="translate(556.4 178.26) rotate(31.8)" font-size="55.73" fill="#534741" font-family="Helvetica-Bold, Helvetica Bold" font-weight="700" letter-spacing="0.2em">4</text>
-    <text transform="translate(474.89 59.94) rotate(31.8)" font-size="55.73" fill="#534741" font-family="Helvetica-Bold, Helvetica Bold" font-weight="700" letter-spacing="0.2em">3</text>
-    <text transform="matrix(0.88, -0.48, 0.48, 0.88, 46.93, 195.28)" font-size="55.73" fill="#534741" font-family="Helvetica-Bold, Helvetica Bold" font-weight="700" letter-spacing="0.2em">1</text>
-    <text transform="matrix(0.88, -0.48, 0.48, 0.88, 174.93, 59.92)" font-size="55.73" fill="#534741" font-family="Helvetica-Bold, Helvetica Bold" font-weight="700" letter-spacing="0.2em">2</text>
+    <text transform="translate(556.4 178.26) rotate(31.8)" font-size="55.73" fill="#534741" font-family="Arial, Helvetica-Bold, Helvetica Bold" font-weight="700" letter-spacing="0.2em">4</text>
+    <text transform="translate(474.89 59.94) rotate(31.8)" font-size="55.73" fill="#534741" font-family="Arial, Helvetica-Bold, Helvetica Bold" font-weight="700" letter-spacing="0.2em">3</text>
+    <text transform="matrix(0.88, -0.48, 0.48, 0.88, 46.93, 195.28)" font-size="55.73" fill="#534741" font-family="Arial, Helvetica-Bold, Helvetica Bold" font-weight="700" letter-spacing="0.2em">1</text>
+    <text transform="matrix(0.88, -0.48, 0.48, 0.88, 174.93, 59.92)" font-size="55.73" fill="#534741" font-family="Arial, Helvetica-Bold, Helvetica Bold" font-weight="700" letter-spacing="0.2em">2</text>
     <path d="M96.83,215.55s43.81,40.56,49.57,48.5" fill="#fffaf7" stroke="#534741" stroke-linejoin="round"/>
     <path d="M557.67,260.4s-78.7,33.35-103.1,50.48" fill="#fffaf7" stroke="#534741" stroke-linejoin="round"/>
   </g>
