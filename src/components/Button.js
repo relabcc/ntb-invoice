@@ -15,6 +15,7 @@ import {
   height,
   lineHeight,
   minHeight,
+  flexWrap,
   display,
 } from 'styled-system';
 import tag from 'clean-tag';
@@ -57,6 +58,7 @@ export const buttonStyle = css`
   ${fontWeight}
   ${lineHeight}
   ${minHeight}
+  ${flexWrap}
   ${letterSpacing}
   ${injectProps('whiteSpace')}
   appearance: none;

@@ -14,6 +14,7 @@ import Picture from './Picture';
 
 import Box from '../../components/Box';
 import Flex from '../../components/Flex';
+import Text from '../../components/Text';
 import DoubleLayerButton from '../../components/DoubleLayerButton';
 import Container from '../../components/Container';
 import BackgroundImage from '../../components/BackgroundImage';
@@ -25,7 +26,11 @@ const projects = [
   {
     img: application,
     sub: '申請手機條碼',
-    descrip: '至電子發票整合服務平台，點選左側「手機條碼申請處」輸入手機號碼和E-mail，以及圖形上之驗證碼',
+    descrip: (
+      <Text>
+        至<a href="https://www.einvoice.nat.gov.tw/index" target="_blank">電子發票整合服務平台</a>，點選左側「手機條碼申請處」輸入手機號碼和E-mail，以及圖形上之驗證碼
+      </Text>
+    ),
   },
   {
     img: verification,
@@ -66,7 +71,7 @@ const Row = ({ project, even, isMobile, index }) => {
       justifyContent={isMobile && 'center'}
     />;
   return (
-    <Flex alignItems="center" py="2em" flexWrap={isMobile ? 'wrap' : 'nowrap'}>
+    <Flex alignItems="center" py="2em" flexWrap={isMobile ? 'wrap' : 'nowrap'} borderBottom="2px solid">
       {(even || isMobile) ? pic : null}
       {content}
       {(!even && !isMobile) ? pic : null}
@@ -94,7 +99,7 @@ const index = ({ browser }) => {
       <Box px="10%">
         <BackgroundImage src={isMobile ? mobilesubtitle : subtitle} ratio={isMobile ? 522.74 / 606.76 : 296.94 / 763.55} />
       </Box>
-      <Box pt={['0.25em','3em']} pb={['1em','3em']} px={['6%', '8%']} borderBottom="2px solid">
+      <Box pt={['0.25em','3em']} pb={['1em','3em']} px={['6%', '8%']}>
         {projects.map((project, index) => (
           <Row
             key={index}
