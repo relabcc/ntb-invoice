@@ -45,7 +45,7 @@ const projects = [
   {
     img: won,
     sub: '幸運中獎',
-    descrip: '電子發票整合服務平台主動email通知，並自動匯款至已設定之金融帳戶',
+    descrip: '電子發票整合服務平台主動E-mail通知，並自動匯款至已設定之金融帳戶',
   },
 ]
 
