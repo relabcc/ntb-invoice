@@ -18,6 +18,7 @@
     "immutable": "^3.8.2",
     "lodash": "^4.17.11",
     "open-color": "^1.6.3",
+    "rc-tooltip": "^3.7.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",

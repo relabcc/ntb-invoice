@@ -1,5 +1,4 @@
 import React from 'react';
-import { navigate } from 'gatsby';
 
 import fashion from './fashion.svg';
 import tradition from './tradition.svg';
@@ -15,10 +14,20 @@ import BackgroundImage from '../../../components/BackgroundImage';
 import Flex from '../../../components/Flex';
 import Button from '../../../components/Button';
 import Link from '../../../components/Link';
+import Tooltip from '../../../components/Tooltip';
 
 const projects = [
   {
-    text: <Text><b>自108年1月1日起</b><br />擴大兌獎服務據點至金融機構與四大超商等，郵局不再提供兌獎服務。</Text>,
+    text: (
+      <Text>
+        <b>自108年1月1日起</b><br />
+        擴大兌獎服務據點至
+        <Tooltip overlay="四大超商、美廉社、全聯、第一銀行、彰化銀行、全國農業金庫、農漁會信用部及信用合作社等">
+          金融機構與四大超商
+        </Tooltip>
+        等，郵局不再提供兌獎服務。
+      </Text>
+    ),
     src: map
   },
   {
