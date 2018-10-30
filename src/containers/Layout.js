@@ -31,7 +31,7 @@ const Layout = ({ children }) => (
             >
               <html lang="zh-Hant-TW" />
               <meta property="og:url" content="https://e-invoice.relab.cc" />
-              <meta property="og:image" content="https://e-invoice.relab.cc/fb.png" />
+              <meta property="og:image" content="https://e-invoice.relab.cc/fbCover.png" />
               <meta property="og:title" content={title} />
               <meta property="og:description" content={description} />
               <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
