@@ -1,57 +1,56 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import { withContentRect } from 'react-measure';
+import Measure from 'react-measure';
 
 import Box from './Box';
 
 class VerticalCenter extends PureComponent {
-  static getDerivedStateFromProps(nextProps, prevState) {
-    const shouldCenter = typeof window !== 'undefined' && window.innerHeight > nextProps.contentRect.bounds.height;
-    return {
-      shouldCenter: prevState.count > 10 ? prevState.shouldCenter : shouldCenter,
-    };
-  }
-
   state = {
-    count: 0
+    count: 0,
   }
 
-  componentDidMount() {
-    this.props.measure();
+  handleContainerRef = (ref) => {
+    this.containerRef = ref;
   }
 
-  componentDidUpdate(prevProps, prevState) {
-    if (prevState.shouldCenter !== this.state.shouldCenter) {
-      this.setState({ count: this.state.count + 1 });
-    }
+  handleResize = (contentRect) => {
+    const { count, shouldCenter } = this.state;
+    const shouldCenterNow = typeof this.containerRef !== 'undefined' && this.containerRef.getBoundingClientRect().height > contentRect.bounds.height;
+    this.setState({
+      count: count + Number(shouldCenter !== shouldCenterNow),
+      shouldCenter: count > 4 ? shouldCenter : shouldCenterNow,
+    });
   }
 
   render() {
     const {
       children,
-      measure,
-      measureRef,
-      contentRect,
       ...props
     } = this.props;
-    // const shouldCenter = 1;
-    // console.log(window.innerHeight, height);
     const { shouldCenter } = this.state;
     return (
       <Box
         position="relative"
         height="100%"
+        innerRef={this.handleContainerRef}
         {...props}
       >
-        <Box
-          position={shouldCenter && 'absolute'}
-          top={shouldCenter ? '50%' : 0}
-          width={1}
-          transform={shouldCenter && 'translateY(-50%)'}
-          innerRef={measureRef}
+        <Measure
+          bounds
+          onResize={this.handleResize}
         >
-          {children}
-        </Box>
+          {({ measureRef }) => (
+            <Box
+              position={shouldCenter && 'absolute'}
+              top={shouldCenter ? '50%' : 0}
+              width={1}
+              transform={shouldCenter && 'translateY(-50%)'}
+              innerRef={measureRef}
+            >
+              {children}
+            </Box>
+          )}
+        </Measure>
       </Box>
     );
   }
@@ -59,9 +58,6 @@ class VerticalCenter extends PureComponent {
 
 VerticalCenter.propTypes = {
   children: PropTypes.node,
-  measure: PropTypes.func,
-  measureRef: PropTypes.func,
-  contentRect: PropTypes.object,
 };
 
-export default withContentRect('bounds')(VerticalCenter);
+export default VerticalCenter;
