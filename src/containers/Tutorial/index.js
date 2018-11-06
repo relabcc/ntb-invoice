@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import { compose } from 'redux';
 import styled from 'styled-components';
 
@@ -22,6 +22,9 @@ import BackgroundImage from '../../components/BackgroundImage';
 import withLayout from '../../hoc/withLayout';
 import Link from '../../components/Link';
 import withResponsive from '../../hoc/withResponsive';
+
+import Survey from './Survey';
+import { fbInit } from './fb';
 
 const LinkWithUnderline = styled(Link)`
   &:hover {
@@ -96,37 +99,62 @@ const ActionButton = (props) => (
   />
 );
 
-const index = ({ browser }) => {
-  const isMobile = browser.lessThan.sm;
-  return (
-    <Container>
-      <Box px={[0, '20%']} pb={['1.5em','3em']} pt="3em">
-        <Title isMobile={isMobile} />
-      </Box>
-      <Box px="10%">
-        <BackgroundImage src={isMobile ? mobilesubtitle : subtitle} ratio={isMobile ? 522.74 / 606.76 : 296.94 / 763.55} />
-      </Box>
-      <Box pt={['0.25em','3em']} pb={['1em','3em']} px={['6%', '8%']}>
-        {projects.map((project, index) => (
-          <Row
-            key={index}
-            project={project}
-            index={index}
-            even={index % 2 === 0}
-            isMobile={isMobile}
-          />
-        ))}
-      </Box>
-      <Flex justifyContent="center" textAlign="center" py="3em" flexWrap="wrap">
-        <ActionButton href={apply} mb={['1em', 0]}>
-          申請手機條碼
-        </ActionButton>
-        <ActionButton href={share}>
-          分享測驗
-        </ActionButton>
-      </Flex>
-    </Container>
-  );
-};
+class Tutorial extends PureComponent {
+  componentDidMount() {
+    fbInit();
+  }
 
-export default compose(withLayout, withResponsive)(index);
+  render() {
+    const { browser } = this.props;
+    const isMobile = browser.lessThan.sm;
+    return (
+      <Container py="3em">
+        <Box px={[0, '20%']} pb={['1.5em','3em']}>
+          <Title isMobile={isMobile} />
+        </Box>
+        <Box px="10%">
+          <BackgroundImage src={isMobile ? mobilesubtitle : subtitle} ratio={isMobile ? 522.74 / 606.76 : 296.94 / 763.55} />
+        </Box>
+        <Box pt={['0.25em','3em']} pb={['1em','3em']} px={['6%', '8%']}>
+          {projects.map((project, index) => (
+            <Row
+              key={index}
+              project={project}
+              index={index}
+              even={index % 2 === 0}
+              isMobile={isMobile}
+            />
+          ))}
+        </Box>
+        <Box my="1em" textAlign="center">
+          <div
+            className="fb-page"
+            data-href="https://www.facebook.com/ntbca321/"
+            data-small-header="true"
+            data-adapt-container-width="true"
+            data-hide-cover="false"
+            data-show-facepile="true"
+          >
+            <blockquote
+              cite="https://www.facebook.com/ntbca321/"
+              className="fb-xfbml-parse-ignore"
+            >
+              <a href="https://www.facebook.com/ntbca321/" target="_blank">中區國稅局 稅務e吉棒</a>
+            </blockquote>
+          </div>
+        </Box>
+        <Survey />
+        <Flex justifyContent="center" textAlign="center" py="2em" flexWrap="wrap">
+          <ActionButton href={apply} mb={['1em', 0]}>
+            申請手機條碼
+          </ActionButton>
+          <ActionButton href={share}>
+            分享測驗
+          </ActionButton>
+        </Flex>
+      </Container>
+    );
+  };
+}
+
+export default compose(withLayout, withResponsive)(Tutorial);

@@ -61,6 +61,7 @@ export const buttonStyle = css`
   ${flexWrap}
   ${letterSpacing}
   ${injectProps('whiteSpace')}
+  ${injectProps('borderWidth')}
   appearance: none;
   transition: all ${themeGet('duration', 250)}ms;
   cursor: pointer;
